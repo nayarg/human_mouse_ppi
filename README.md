@@ -3,7 +3,8 @@
 Repository containing the embedding and distance data for the 2022 STRING human and mouse PPI networks
 
 `/embedding` folder contains the output of the embedding algorith
-- The relevant files to the cosine distance calculation are `node_id_{type}.npy` (where type is either human, mouse, human mouse with edge, human mouse without edge) and `node_vectors_{type}.npy`. The `node_id` file contains a list of the protein names and `node_vectors` contains the vector for each protein, using the same order as the `node_id` list.  
+- The relevant files to the cosine distance calculation are `node_id_{type}.npy` (where type is either human, mouse, human mouse with edge, human mouse without edge) and `node_vectors_{type}.npy`. The `node_id` file contains a list of the protein names and `node_vectors` contains the vector for each protein, using the same order as the `node_id` list. 
+- The `human_id_vector.csv` file contains the combined name and vector 
 
 
 `/dist` folder contains the numpy distance matrices
